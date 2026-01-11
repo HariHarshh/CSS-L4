@@ -1,0 +1,29 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color:darkorchid;
+    color: #C9D1D9;
+}
+h1 {
+    color:aqua ;
+}
+a{
+    color: cadetblue;
+    text-decoration: none;
+}
+a:hover {
+    color: cornflowerblue;
+}
+
+ul> li{
+    font-weight: bold;
+}
+
+ul li::before {
+    content: "🚀 ";
+}
+
+p::first-letter{
+    font-size:200% ;
+    color:bisque;
+}
+    
